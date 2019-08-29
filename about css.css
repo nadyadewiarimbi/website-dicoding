@@ -1,0 +1,42 @@
+body{
+	background-image: url(foto/salju.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body img{
+	height: 500px;
+	width: 1000px;
+	position: relative;
+	bottom: -50px;
+	right: -200px;
+
+}
+ul{
+	font-family: Comic Sans MS;
+	font-size: 25px;
+}
+ul li a {
+	display: block;
+	border-top: 1px;
+	padding: 5px;
+	color: white;
+	background: transparent;
+	margin-left: 1px;
+}
+ul li a:hover {
+	background: purple;
+	display: inline-block;
+}
+.header{
+	font-family: Gill Sans;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+.content{
+	font-family: comic sans ms;
+	font-size: 25px;
+	color: white ;
+	text-align: center;
+
+}

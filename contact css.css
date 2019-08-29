@@ -1,0 +1,41 @@
+body{
+	background-image: url(foto/sakura.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ul{
+	font-family: Comic Sans MS;
+	font-size: 25px;
+}
+ul li a {
+	display: block;
+	border-top: 1px;
+	padding: 5px;
+	color: white;bo
+	background: transparent;
+	margin-left: 1px;
+}
+ul li a:hover {
+	background: red;
+	display: inline-block;
+}
+.header .insta{
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	background-image: url(foto/ig.png);
+	background-size: cover;
+	position: relative;
+	left: 20px;
+	text-indent: -9999px;
+}
+.header .fb{
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	background-image: url(foto/fb.png);
+	background-size: cover;
+	position: relative;
+	left: 20px;
+	text-indent: -9999px;
+}
